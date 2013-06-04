@@ -1,0 +1,11 @@
+<h1>List 'o People</h1>
+
+<table class='people'>
+  <th>
+    <td>Name</td>
+    <td>Email</td>
+    <td>Gender</td>
+    <td>Birthdate</td>
+  </th>
+  <%= render partial: 'person', collection: @people %>
+</table>
