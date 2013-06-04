@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
   def index
-    @people = Person.all
+    @people = # Start your query here
   end
 end
